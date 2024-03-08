@@ -9,7 +9,7 @@ export const Form = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:3000/api/index.js', {
+            const response = await fetch('https://opti-morph-back.vercel.app/process-url', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
